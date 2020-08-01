@@ -1,7 +1,17 @@
 import java.util.Scanner;
 public class Main {
     public static String prepareFullName (String firstName, String lastName){
-        return (firstName + " " + lastName);
+        String result = "";
+        if (firstName != null) {
+            result += firstName;
+            if (lastName != null) {
+                result += " ";
+            }
+        }
+        if (lastName != null) {
+            result += lastName;
+        }
+        return result;
     }
     /* Do not change code below */
     public static void main (String[] args) {
