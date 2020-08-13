@@ -1,0 +1,3 @@
+public enum Secret {
+    STAR, CRASH, START, STARTUP, STARSHIP, TWILIGHT, STARK, KNIGHT;
+}
